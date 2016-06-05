@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891EF4E61C77670300DEDC4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891EF4E51C77670300DEDC4E /* AppDelegate.swift */; };
+		891EF4E81C77670300DEDC4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891EF4E71C77670300DEDC4E /* ViewController.swift */; };
+		891EF4EB1C77670300DEDC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891EF4E91C77670300DEDC4E /* Main.storyboard */; };
+		891EF4ED1C77670300DEDC4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891EF4EC1C77670300DEDC4E /* Assets.xcassets */; };
+		891EF4F01C77670300DEDC4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891EF4EE1C77670300DEDC4E /* LaunchScreen.storyboard */; };
+		891EF4F81C777E9B00DEDC4E /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891EF4F71C777E9B00DEDC4E /* DragImg.swift */; };
+		89629C5A1C7898B30051A7FE /* GolemImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89629C591C7898B30051A7FE /* GolemImg.swift */; };
+		89629C601C78CBCF0051A7FE /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89629C5B1C78CBCF0051A7FE /* bite.wav */; };
+		89629C611C78CBCF0051A7FE /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89629C5C1C78CBCF0051A7FE /* cave-music.mp3 */; };
+		89629C621C78CBCF0051A7FE /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89629C5D1C78CBCF0051A7FE /* death.wav */; };
+		89629C631C78CBCF0051A7FE /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89629C5E1C78CBCF0051A7FE /* heart.wav */; };
+		89629C641C78CBCF0051A7FE /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 89629C5F1C78CBCF0051A7FE /* skull.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		891EF4E21C77670300DEDC4E /* golemushka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golemushka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891EF4E51C77670300DEDC4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		891EF4E71C77670300DEDC4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		891EF4EA1C77670300DEDC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		891EF4EC1C77670300DEDC4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		891EF4EF1C77670300DEDC4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		891EF4F11C77670300DEDC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891EF4F71C777E9B00DEDC4E /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		89629C591C7898B30051A7FE /* GolemImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolemImg.swift; sourceTree = "<group>"; };
+		89629C5B1C78CBCF0051A7FE /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		89629C5C1C78CBCF0051A7FE /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		89629C5D1C78CBCF0051A7FE /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		89629C5E1C78CBCF0051A7FE /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		89629C5F1C78CBCF0051A7FE /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891EF4DF1C77670300DEDC4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891EF4D91C77670300DEDC4E = {
+			isa = PBXGroup;
+			children = (
+				891EF4E41C77670300DEDC4E /* golemushka */,
+				891EF4E31C77670300DEDC4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891EF4E31C77670300DEDC4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891EF4E21C77670300DEDC4E /* golemushka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891EF4E41C77670300DEDC4E /* golemushka */ = {
+			isa = PBXGroup;
+			children = (
+				89629C5B1C78CBCF0051A7FE /* bite.wav */,
+				89629C5C1C78CBCF0051A7FE /* cave-music.mp3 */,
+				89629C5D1C78CBCF0051A7FE /* death.wav */,
+				89629C5E1C78CBCF0051A7FE /* heart.wav */,
+				89629C5F1C78CBCF0051A7FE /* skull.wav */,
+				891EF4E51C77670300DEDC4E /* AppDelegate.swift */,
+				891EF4E71C77670300DEDC4E /* ViewController.swift */,
+				891EF4F71C777E9B00DEDC4E /* DragImg.swift */,
+				89629C591C7898B30051A7FE /* GolemImg.swift */,
+				891EF4E91C77670300DEDC4E /* Main.storyboard */,
+				891EF4EC1C77670300DEDC4E /* Assets.xcassets */,
+				891EF4EE1C77670300DEDC4E /* LaunchScreen.storyboard */,
+				891EF4F11C77670300DEDC4E /* Info.plist */,
+			);
+			path = golemushka;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891EF4E11C77670300DEDC4E /* golemushka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891EF4F41C77670300DEDC4E /* Build configuration list for PBXNativeTarget "golemushka" */;
+			buildPhases = (
+				891EF4DE1C77670300DEDC4E /* Sources */,
+				891EF4DF1C77670300DEDC4E /* Frameworks */,
+				891EF4E01C77670300DEDC4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = golemushka;
+			productName = golemushka;
+			productReference = 891EF4E21C77670300DEDC4E /* golemushka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891EF4DA1C77670300DEDC4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Алем Утемисов";
+				TargetAttributes = {
+					891EF4E11C77670300DEDC4E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = ZS2C5V6GZD;
+					};
+				};
+			};
+			buildConfigurationList = 891EF4DD1C77670300DEDC4E /* Build configuration list for PBXProject "golemushka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 891EF4D91C77670300DEDC4E;
+			productRefGroup = 891EF4E31C77670300DEDC4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891EF4E11C77670300DEDC4E /* golemushka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891EF4E01C77670300DEDC4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89629C641C78CBCF0051A7FE /* skull.wav in Resources */,
+				89629C601C78CBCF0051A7FE /* bite.wav in Resources */,
+				89629C621C78CBCF0051A7FE /* death.wav in Resources */,
+				89629C631C78CBCF0051A7FE /* heart.wav in Resources */,
+				89629C611C78CBCF0051A7FE /* cave-music.mp3 in Resources */,
+				891EF4F01C77670300DEDC4E /* LaunchScreen.storyboard in Resources */,
+				891EF4ED1C77670300DEDC4E /* Assets.xcassets in Resources */,
+				891EF4EB1C77670300DEDC4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891EF4DE1C77670300DEDC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891EF4F81C777E9B00DEDC4E /* DragImg.swift in Sources */,
+				891EF4E81C77670300DEDC4E /* ViewController.swift in Sources */,
+				89629C5A1C7898B30051A7FE /* GolemImg.swift in Sources */,
+				891EF4E61C77670300DEDC4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		891EF4E91C77670300DEDC4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891EF4EA1C77670300DEDC4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		891EF4EE1C77670300DEDC4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891EF4EF1C77670300DEDC4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		891EF4F21C77670300DEDC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		891EF4F31C77670300DEDC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		891EF4F51C77670300DEDC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = golemushka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alem.golemushka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		891EF4F61C77670300DEDC4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = golemushka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alem.golemushka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891EF4DD1C77670300DEDC4E /* Build configuration list for PBXProject "golemushka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891EF4F21C77670300DEDC4E /* Debug */,
+				891EF4F31C77670300DEDC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891EF4F41C77670300DEDC4E /* Build configuration list for PBXNativeTarget "golemushka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891EF4F51C77670300DEDC4E /* Debug */,
+				891EF4F61C77670300DEDC4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 891EF4DA1C77670300DEDC4E /* Project object */;
+}
